@@ -1,0 +1,22 @@
+此文件记录踩过的坑：
+1. 估计因为odi版本问题，安装odi时引用的jdk只能是1.6或者1.7版本（安装odi时注意对应的jdk版本）
+2. odi中过程调用jar包时，打jar包的jdk版本需要和安装odi的版本一致，否则无法调用（不同jdk版本打出的jar包不一样）
+3. Jython技术调用jar包 举例
+   例如：（python技术）
+   import os
+   import sys
+   jars = [
+   // jar包位置
+   "F:\work\ODI\oracledi.sdk\lib\Eric.jar"
+   ]
+   for jar in jars:
+         sys.path.append(jar)
+
+   // 引入类
+   import Main
+   // 初始化类
+   hw = Main()
+   // 调用方法（主方法）
+   hw.main(["mm"])
+
+4.
