@@ -1,14 +1,24 @@
 package test;
 
+import db.DBConnect;
+
 import javax.swing.filechooser.FileSystemView;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 
 /**
  * Created by shihai.li@hand-china.com on 2018/8/12.
  */
 public class test {
+
+    private static final String url = "jdbc:oracle:thin:@localhost:1521:XE";
+    private static final String userName = "HDM_DEV";
+    private static final String password = "HDM_DEV";
+    private static final DBConnect dbConnect = new DBConnect();
 
     public void downLoadFile (){
 
@@ -37,6 +47,45 @@ public class test {
         }
     }
 
+    /**
+     * Description：数据库连接类测试方法
+     * 注意使用前先要将项目中导入 jdbc 相关数据库连接的jar包
+     * 注意需要关闭数据库连接，释放资源
+     * Author:@shihai.li@hand-china.com
+     */
+    public void dbTest() {
+        try {
+            String tableName = "sys_user";
+            dbConnect.DBConnection("oracle", url, userName, password);
+            ResultSet rs = dbConnect.selectAll(tableName);
+            while(rs.next()){
+                System.out.println(rs.getString("user_id") +"=="+rs.getString("user_name"));
+            }
+        } catch (ClassNotFoundException e1) {
+            e1.printStackTrace();
+        } catch (SQLException e2) {
+            e2.printStackTrace();
+        } finally {
+            dbConnect.close();
+        }
+    }
+
+   public void select(){
+       try {
+           String tableName = "sys_user";
+           dbConnect.DBConnection("oracle", url, userName, password);
+           ResultSet rs = dbConnect.select(tableName,"user_id", "10001");
+           while(rs.next()){
+               System.out.println(rs.getString("user_id") +"=="+rs.getString("user_name"));
+           }
+       } catch (ClassNotFoundException e1) {
+           e1.printStackTrace();
+       } catch (SQLException e2) {
+           e2.printStackTrace();
+       } finally {
+           dbConnect.close();
+       }
+   }
 
 
 
