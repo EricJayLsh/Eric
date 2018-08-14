@@ -74,7 +74,7 @@ public class test {
        try {
            String tableName = "sys_user";
            dbConnect.DBConnection("oracle", url, userName, password);
-           ResultSet rs = dbConnect.select(tableName,"user_id", "10001");
+           ResultSet rs = dbConnect.select("10001");
            while(rs.next()){
                System.out.println(rs.getString("user_id") +"=="+rs.getString("user_name"));
            }
@@ -87,6 +87,20 @@ public class test {
        }
    }
 
+    public void delete(){
+        try {
+            String tableName = "sys_user";
+            dbConnect.DBConnection("oracle", url, userName, password);
+            boolean rs = dbConnect.delete(tableName,"10004");
+            System.out.println(rs);
+        } catch (ClassNotFoundException e1) {
+            e1.printStackTrace();
+        } catch (SQLException e2) {
+            e2.printStackTrace();
+        } finally {
+            dbConnect.close();
+        }
+    }
 
 
 }

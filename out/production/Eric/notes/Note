@@ -17,6 +17,7 @@
    // 初始化类
    hw = Main()
    // 调用方法（主方法）
-   hw.main(["mm"])
+   hw.main(["string"])
 
-4.
+4.mvan 导入本地jar包（在jar包所在目录下cmd）
+  mvn install:install-file -Dfile=F:\ojdbc6.jar -DgroupId=com.Oracle -DartifactId=ojdbc6 -Dversion=11.2.0.4.0 -Dpackaging=jar

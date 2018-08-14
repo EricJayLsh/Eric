@@ -73,3 +73,5 @@ DriverManager.gerConnection(URL,user,password);
 （4）向数据库发送SQL命令
 
 （5）处理数据库的返回结果(ResultSet类)
+
+=================================

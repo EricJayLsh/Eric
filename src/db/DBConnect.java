@@ -90,27 +90,32 @@ public class DBConnect {
         return rs;
     }
 
-    public ResultSet select(String tableName, String key, String condition)throws SQLException{
+    public ResultSet select(String condition)throws SQLException{
 
         if(connection != null){
-            String sql = "SELECT * FROM sys_user WHERE user_id = ?";
+            String sql = "SELECT * FROM SYS_USER WHERE user_id = ?";
             // prepareStatement 无法将sql关键词作为参数
             ps = connection.prepareStatement(sql);
-            //ps.setString(1, tableName);
-            //ps.setString(1, key);
             ps.setString(1, condition);
             rs = ps.executeQuery();
         }
         return rs;
     }
-    public ResultSet delete(String tableName, String condition)throws SQLException{
 
+    /**
+     * Description：删除方法
+     * Author:@shihai.li@hand-china.com
+     */
+    public boolean delete(String tableName, String condition)throws SQLException{
+
+        boolean delete = true;
         if(connection != null){
-            String sql = "DELETE  FROM "+tableName+"where"+condition;
+            String sql = "DELETE  FROM "+tableName+" where user_id = ?";
             ps = connection.prepareStatement(sql);
-            rs = st.executeQuery(sql);
+            ps.setString(1, condition);
+            delete = ps.execute();
         }
-        return rs;
+        return delete;
     }
 
 }

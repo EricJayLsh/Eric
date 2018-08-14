@@ -9,6 +9,9 @@ public class Main {
 
         // fileDown.dbTest();
 
-        fileDown.select();
+        //fileDown.select();
+
+       // fileDown.delete();
+
     }
 }
