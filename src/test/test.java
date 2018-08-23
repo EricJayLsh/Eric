@@ -6,6 +6,7 @@ import javax.swing.filechooser.FileSystemView;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -102,5 +103,27 @@ public class test {
         }
     }
 
+    /**
+     * Description：Java 调用操作系统命令
+     * Author:@shihai.li@hand-china.com
+     */
+    public void operatingSystem (){
+
+        // 将 操作系统命令写入批处理文件中
+        String path = "E:\\public.bat";
+        Runtime run = Runtime.getRuntime();
+        try {
+            // run.exec("cmd /k shutdown -s -t 3600");
+            Process process = run.exec("cmd.exe /k start " + path);
+            InputStream in = process.getInputStream();
+            while (in.read() != -1) {
+                System.out.println(in.read());
+            }
+            in.close();
+            process.waitFor();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 
 }

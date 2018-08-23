@@ -11,7 +11,14 @@
    ]
    for jar in jars:
          sys.path.append(jar)
-
+===========
+格式：
+from 包名 import 类名
+   // 初始化类，创建一个类的对象
+   hw = Main()
+   // 调用类的方法（主方法）
+   hw.main(["string"])
+=============
    // 引入类
    import Main
    // 初始化类
