@@ -7,15 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db555f77-73cb-4dfa-9367-6db5e528ec5b" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/src/utils/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Eric/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Eric/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Eric/db/DBConnect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Eric/db/DBConnect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Eric/test/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Eric/test/test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/notes/Note" beforeDir="false" afterPath="$PROJECT_DIR$/src/notes/Note" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/notes/笔记文件" beforeDir="false" afterPath="$PROJECT_DIR$/src/notes/笔记文件" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +23,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="50">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,8 +35,8 @@
       <file leaf-file-name="Utils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/utils/Utils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="47" column="25" lean-forward="true" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+            <state relative-caret-position="500">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,20 +47,16 @@
       <file leaf-file-name="test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="73" column="24" lean-forward="true" selection-start-line="73" selection-start-column="24" selection-end-line="74" selection-end-column="12" />
+            <state relative-caret-position="300">
+              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#downLoadFile#0;class#test#0" />
+                <element signature="docComment;method#dbTest#0;class#test#0" />
+                <element signature="method#select#0;class#test#0" />
+                <element signature="method#delete#0;class#test#0" />
+                <element signature="method#operatingSystem#0;class#test#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Note" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/notes/Note">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -75,25 +64,34 @@
       <file leaf-file-name="笔记文件" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/notes/笔记文件">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-275">
-              <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            <state relative-caret-position="2850">
+              <caret line="114" column="31" selection-start-line="114" selection-start-column="31" selection-end-line="114" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBConnect.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DBConnect.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/db/DBConnect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+            <state relative-caret-position="200">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="docComment;field#connection#0;class#DBConnect#0" />
                 <element signature="docComment;field#ps#0;class#DBConnect#0" />
                 <element signature="docComment;field#rs#0;class#DBConnect#0" />
                 <element signature="docComment;method#DBConnection#0;class#DBConnect#0" />
                 <element signature="method#close#0;class#DBConnect#0" />
-                <element signature="method#selectAll#0;class#DBConnect#0" />
+                <element signature="docComment;method#delete#0;class#DBConnect#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBOperation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/db/DBOperation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -111,6 +109,8 @@
     <findStrings>
       <find>password</find>
       <find>test</find>
+      <find>DBConnection</find>
+      <find>dbConnect</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -121,12 +121,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Note" />
-        <option value="$PROJECT_DIR$/src/db/DBConnect.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/notes/笔记文件" />
         <option value="$PROJECT_DIR$/src/test/test.java" />
         <option value="$PROJECT_DIR$/src/utils/Utils.java" />
         <option value="$PROJECT_DIR$/src/notes/Note" />
+        <option value="$PROJECT_DIR$/src/notes/笔记文件" />
+        <option value="$PROJECT_DIR$/src/db/DBConnect.java" />
       </list>
     </option>
   </component>
@@ -145,11 +145,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-34" />
-    <option name="y" value="22" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-24" />
+    <option name="y" value="13" />
     <option name="width" value="1934" />
-    <option name="height" value="996" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="添加" />
@@ -159,15 +159,20 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Eric" type="b2602c69:ProjectViewProjectNode" />
               <item name="Eric" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Eric" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Eric" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Eric" type="b2602c69:ProjectViewProjectNode" />
@@ -203,6 +208,10 @@
               <item name="Eric" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Eric" type="b2602c69:ProjectViewProjectNode" />
+              <item name="外部库" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -302,7 +311,11 @@
       <workItem from="1534120901803" duration="11454000" />
       <workItem from="1534249412456" duration="2221000" />
       <workItem from="1534926750079" duration="197000" />
-      <workItem from="1534986560329" duration="3150000" />
+      <workItem from="1534986560329" duration="3575000" />
+      <workItem from="1535337974449" duration="3661000" />
+      <workItem from="1535684526864" duration="8000" />
+      <workItem from="1537326533784" duration="3106000" />
+      <workItem from="1537359235344" duration="3651000" />
     </task>
     <task id="LOCAL-00001" summary="idea项目整合github">
       <created>1534058959077</created>
@@ -315,11 +328,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38273000" />
+    <option name="totallyTimeSpent" value="49124000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-24" y="13" width="1934" height="1047" extended-state="1" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="调试" order="7" weight="0.32936078" />
@@ -330,12 +342,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32995737" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="消息" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="运行" order="7" weight="0.32719395" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32936078" />
-      <window_info anchor="bottom" id="运行" order="7" visible="true" weight="0.32719395" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="right" id="控制板" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14925373" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15581644" />
       <window_info anchor="bottom" id="SonarLint" order="7" weight="0.32936078" />
       <window_info id="设计师" order="2" />
       <window_info anchor="right" id="Database" order="3" />
@@ -345,11 +356,13 @@
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="找到" order="8" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="消息" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
@@ -401,10 +414,231 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="18" />
+      <option name="time" value="25" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/db/DBOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/DBConnect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="docComment;field#connection#0;class#DBConnect#0" />
+            <element signature="docComment;field#ps#0;class#DBConnect#0" />
+            <element signature="docComment;field#rs#0;class#DBConnect#0" />
+            <element signature="docComment;method#DBConnection#0;class#DBConnect#0" />
+            <element signature="method#close#0;class#DBConnect#0" />
+            <element signature="docComment;method#delete#0;class#DBConnect#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1600">
+          <caret line="73" column="24" selection-start-line="73" selection-start-column="24" selection-end-line="74" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#downLoadFile#0;class#test#0" />
+            <element signature="docComment;method#dbTest#0;class#test#0" />
+            <element signature="method#select#0;class#test#0" />
+            <element signature="method#delete#0;class#test#0" />
+            <element signature="method#operatingSystem#0;class#test#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/notes/Note">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/notes/笔记文件">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2850">
+          <caret line="114" column="31" selection-start-line="114" selection-start-column="31" selection-end-line="114" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/DBConnect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding>
+            <element signature="docComment;field#connection#0;class#DBConnect#0" />
+            <element signature="docComment;field#ps#0;class#DBConnect#0" />
+            <element signature="docComment;field#rs#0;class#DBConnect#0" />
+            <element signature="docComment;method#DBConnection#0;class#DBConnect#0" />
+            <element signature="method#close#0;class#DBConnect#0" />
+            <element signature="docComment;method#delete#0;class#DBConnect#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/DBOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1600">
+          <caret line="73" column="24" selection-start-line="73" selection-start-column="24" selection-end-line="74" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#downLoadFile#0;class#test#0" />
+            <element signature="docComment;method#dbTest#0;class#test#0" />
+            <element signature="method#select#0;class#test#0" />
+            <element signature="method#delete#0;class#test#0" />
+            <element signature="method#operatingSystem#0;class#test#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/notes/Note">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/DBConnect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding>
+            <element signature="docComment;field#connection#0;class#DBConnect#0" />
+            <element signature="docComment;field#ps#0;class#DBConnect#0" />
+            <element signature="docComment;field#rs#0;class#DBConnect#0" />
+            <element signature="docComment;method#DBConnection#0;class#DBConnect#0" />
+            <element signature="method#close#0;class#DBConnect#0" />
+            <element signature="docComment;method#delete#0;class#DBConnect#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/notes/笔记文件">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2850">
+          <caret line="114" column="31" lean-forward="true" selection-start-line="114" selection-start-column="31" selection-end-line="114" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1600">
+          <caret line="73" column="24" lean-forward="true" selection-start-line="73" selection-start-column="24" selection-end-line="74" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#downLoadFile#0;class#test#0" />
+            <element signature="docComment;method#dbTest#0;class#test#0" />
+            <element signature="method#select#0;class#test#0" />
+            <element signature="method#delete#0;class#test#0" />
+            <element signature="method#operatingSystem#0;class#test#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/notes/Note">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/notes/笔记文件">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/DBConnect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding>
+            <element signature="docComment;field#connection#0;class#DBConnect#0" />
+            <element signature="docComment;field#ps#0;class#DBConnect#0" />
+            <element signature="docComment;field#rs#0;class#DBConnect#0" />
+            <element signature="docComment;method#DBConnection#0;class#DBConnect#0" />
+            <element signature="method#close#0;class#DBConnect#0" />
+            <element signature="docComment;method#delete#0;class#DBConnect#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -431,6 +665,11 @@
           <caret line="94" column="35" selection-start-line="94" selection-start-column="35" selection-end-line="94" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#downLoadFile#0;class#test#0" />
+            <element signature="docComment;method#dbTest#0;class#test#0" />
+            <element signature="method#select#0;class#test#0" />
+            <element signature="method#delete#0;class#test#0" />
+            <element signature="method#operatingSystem#0;class#test#0" />
           </folding>
         </state>
       </provider>
@@ -445,7 +684,7 @@
             <element signature="docComment;field#rs#0;class#DBConnect#0" />
             <element signature="docComment;method#DBConnection#0;class#DBConnect#0" />
             <element signature="method#close#0;class#DBConnect#0" />
-            <element signature="method#selectAll#0;class#DBConnect#0" />
+            <element signature="docComment;method#delete#0;class#DBConnect#0" />
           </folding>
         </state>
       </provider>
@@ -466,6 +705,11 @@
           <caret line="94" column="35" lean-forward="true" selection-start-line="94" selection-start-column="35" selection-end-line="94" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#downLoadFile#0;class#test#0" />
+            <element signature="docComment;method#dbTest#0;class#test#0" />
+            <element signature="method#select#0;class#test#0" />
+            <element signature="method#delete#0;class#test#0" />
+            <element signature="method#operatingSystem#0;class#test#0" />
           </folding>
         </state>
       </provider>
@@ -480,7 +724,7 @@
             <element signature="docComment;field#rs#0;class#DBConnect#0" />
             <element signature="docComment;method#DBConnection#0;class#DBConnect#0" />
             <element signature="method#close#0;class#DBConnect#0" />
-            <element signature="method#selectAll#0;class#DBConnect#0" />
+            <element signature="docComment;method#delete#0;class#DBConnect#0" />
           </folding>
         </state>
       </provider>
@@ -511,6 +755,11 @@
           <caret line="89" column="22" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#downLoadFile#0;class#test#0" />
+            <element signature="docComment;method#dbTest#0;class#test#0" />
+            <element signature="method#select#0;class#test#0" />
+            <element signature="method#delete#0;class#test#0" />
+            <element signature="method#operatingSystem#0;class#test#0" />
           </folding>
         </state>
       </provider>
@@ -525,7 +774,7 @@
             <element signature="docComment;field#rs#0;class#DBConnect#0" />
             <element signature="docComment;method#DBConnection#0;class#DBConnect#0" />
             <element signature="method#close#0;class#DBConnect#0" />
-            <element signature="method#selectAll#0;class#DBConnect#0" />
+            <element signature="docComment;method#delete#0;class#DBConnect#0" />
           </folding>
         </state>
       </provider>
@@ -543,6 +792,11 @@
           <caret line="74" column="39" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#downLoadFile#0;class#test#0" />
+            <element signature="docComment;method#dbTest#0;class#test#0" />
+            <element signature="method#select#0;class#test#0" />
+            <element signature="method#delete#0;class#test#0" />
+            <element signature="method#operatingSystem#0;class#test#0" />
           </folding>
         </state>
       </provider>
@@ -578,19 +832,12 @@
             <element signature="docComment;field#rs#0;class#DBConnect#0" />
             <element signature="docComment;method#DBConnection#0;class#DBConnect#0" />
             <element signature="method#close#0;class#DBConnect#0" />
-            <element signature="method#selectAll#0;class#DBConnect#0" />
+            <element signature="docComment;method#delete#0;class#DBConnect#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="111" column="32" lean-forward="true" selection-start-line="111" selection-start-column="32" selection-end-line="111" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/sql/Statement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="571">
@@ -605,32 +852,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/db/DBOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/sql/PreparedStatement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="478" column="17" selection-start-line="478" selection-start-column="17" selection-end-line="478" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/db/DBConnect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding>
-            <element signature="docComment;field#connection#0;class#DBConnect#0" />
-            <element signature="docComment;field#ps#0;class#DBConnect#0" />
-            <element signature="docComment;field#rs#0;class#DBConnect#0" />
-            <element signature="docComment;method#DBConnection#0;class#DBConnect#0" />
-            <element signature="method#close#0;class#DBConnect#0" />
-            <element signature="method#selectAll#0;class#DBConnect#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -641,47 +866,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/utils/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="500">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/DBOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/notes/笔记文件">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-275">
-          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="47" column="25" lean-forward="true" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="73" column="24" lean-forward="true" selection-start-line="73" selection-start-column="24" selection-end-line="74" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="2850">
+          <caret line="114" column="31" selection-start-line="114" selection-start-column="31" selection-end-line="114" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/notes/Note">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="500">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#downLoadFile#0;class#test#0" />
+            <element signature="docComment;method#dbTest#0;class#test#0" />
+            <element signature="method#select#0;class#test#0" />
+            <element signature="method#delete#0;class#test#0" />
+            <element signature="method#operatingSystem#0;class#test#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="260" column="27" selection-start-line="260" selection-start-column="27" selection-end-line="260" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/DBConnect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="docComment;field#connection#0;class#DBConnect#0" />
+            <element signature="docComment;field#ps#0;class#DBConnect#0" />
+            <element signature="docComment;field#rs#0;class#DBConnect#0" />
+            <element signature="docComment;method#DBConnection#0;class#DBConnect#0" />
+            <element signature="method#close#0;class#DBConnect#0" />
+            <element signature="docComment;method#delete#0;class#DBConnect#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -704,7 +963,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

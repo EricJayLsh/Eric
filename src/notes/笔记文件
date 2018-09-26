@@ -243,3 +243,10 @@ DriverManager.gerConnection(URL,user,password);
      * 　　7 最小化显示窗口。活动窗口保持活动。
      * 　　8 以当前状态显示窗口。活动窗口保持活动。
      * 　　9 激活并显示窗口。若窗口是最小化或最大化，则恢复到原来的大小和位置。在还原应用程序的最小化窗口时，应指定该标志。
+
+
+       httpclient入门：  http://www.ibm.com/developerworks/cn/opensource/os-httpclient/
+       httpclient证书导入：http://www.blogjava.net/happytian/archive/2006/12/22/89447.html
+       httpclient高级认识：http://laohuang.iteye.com/blog/55613
+       httpclient官方文档：http://hc.apache.org/httpcomponents-client/index.html
+       httpclient资源关闭：http://www.iteye.com/topic/234759
