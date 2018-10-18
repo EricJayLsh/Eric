@@ -7,21 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db555f77-73cb-4dfa-9367-6db5e528ec5b" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/5/7510195449dcdd0f0928bd928c0c82e5b3b9e4b0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/4/84e51410a8619431d2ac743ae3e889c92088a674" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/1/b1aa162644edcd245032a6cce18c497a758ccbef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/1/b1f49ac3f259962072d88b4a7878dcd0436b3e93" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Eric_jar/Eric.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Eric/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Eric/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Eric/db/DBConnect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Eric/db/DBOperation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Eric/notes/Note" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Eric/notes/笔记文件" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Eric/test/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,17 +31,21 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="MF" value="1" />
+          <entry key="Note" value="1" />
+          <entry key="gitignore" value="1" />
           <entry key="groovy" value="2" />
-          <entry key="java" value="3" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="5" />
           <entry key="js" value="1" />
           <entry key="笔记文件" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="3" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="5" />
           <entry key="Manifest" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="Scratch" value="3" />
         </counts>
       </usages-collector>
@@ -68,59 +58,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/notes/笔记文件">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="775">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils/Utils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/db/DBConnect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
-              <folding>
-                <element signature="docComment;field#connection#0;class#DBConnect#0" />
-                <element signature="docComment;field#ps#0;class#DBConnect#0" />
-                <element signature="docComment;field#rs#0;class#DBConnect#0" />
-                <element signature="docComment;method#DBConnection#0;class#DBConnect#0" />
-                <element signature="method#DBConnection#0;class#DBConnect#0" />
-                <element signature="method#close#0;class#DBConnect#0" />
-                <element signature="method#selectAll#0;class#DBConnect#0" />
-                <element signature="method#select#0;class#DBConnect#0" />
-                <element signature="docComment;method#delete#0;class#DBConnect#0" />
-                <element signature="method#delete#0;class#DBConnect#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/db/DBOperation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -145,12 +83,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Note" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/test/test.java" />
-        <option value="$PROJECT_DIR$/src/utils/Utils.java" />
         <option value="$PROJECT_DIR$/src/notes/Note" />
         <option value="$PROJECT_DIR$/src/notes/笔记文件" />
+        <option value="$PROJECT_DIR$/src/test/test.java" />
         <option value="$PROJECT_DIR$/src/db/DBConnect.java" />
+        <option value="$PROJECT_DIR$/src/utils/Utils.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
@@ -189,11 +127,6 @@
             </path>
             <path>
               <item name="Eric" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Eric" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Eric" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -211,7 +144,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539830068687" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539830471736" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -304,7 +237,7 @@
       <workItem from="1537326533784" duration="3106000" />
       <workItem from="1537359235344" duration="3651000" />
       <workItem from="1538279055075" duration="736000" />
-      <workItem from="1539829511201" duration="555000" />
+      <workItem from="1539829511201" duration="926000" />
     </task>
     <task id="LOCAL-00001" summary="idea项目整合github">
       <created>1534058959077</created>
@@ -317,11 +250,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50415000" />
+    <option name="totallyTimeSpent" value="50786000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15884861" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -343,7 +275,7 @@
       <window_info anchor="bottom" id="消息" order="10" weight="0.32936078" />
       <window_info anchor="bottom" id="运行" order="11" weight="0.32719395" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="调试" order="14" weight="0.32936078" />
       <window_info anchor="bottom" id="找到" order="15" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -409,13 +341,6 @@
     <entry file="jar://C:/oraclexe/app/oracle/product/11.2.0/server/jdbc/lib/ojdbc6_g.jar!/oracle/jdbc/driver/OracleClosedStatement.class" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/sql/PreparedStatement.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/javax/swing/filechooser/FileSystemView.java" />
-    <entry file="file://$PROJECT_DIR$/src/notes/Note">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Class.java" />
     <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/data/extractors/HTML-JavaScript.html.js">
@@ -439,57 +364,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding>
-            <element signature="docComment;method#dbTest#0;class#test#0" />
-            <element signature="method#select#0;class#test#0" />
-            <element signature="method#delete#0;class#test#0" />
-            <element signature="method#operatingSystem#0;class#test#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/notes/笔记文件">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/db/DBOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/db/DBConnect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+        <state relative-caret-position="269">
+          <caret line="35" selection-end-line="123" />
           <folding>
             <element signature="docComment;field#connection#0;class#DBConnect#0" />
             <element signature="docComment;field#ps#0;class#DBConnect#0" />
@@ -502,6 +380,68 @@
             <element signature="docComment;method#delete#0;class#DBConnect#0" />
             <element signature="method#delete#0;class#DBConnect#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/DBOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/notes/笔记文件">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" selection-end-line="251" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="73" column="5" selection-end-line="131" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#dbTest#0;class#test#0" />
+            <element signature="method#select#0;class#test#0" />
+            <element signature="method#delete#0;class#test#0" />
+            <element signature="method#operatingSystem#0;class#test#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" selection-end-line="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eric.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/notes/Note">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="3" selection-end-line="29" selection-end-column="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
