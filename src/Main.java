@@ -1,4 +1,5 @@
-import test.*;
+import test.test;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -11,7 +12,11 @@ public class Main {
 
         //fileDown.select();
 
-       // fileDown.delete();
+        // fileDown.delete();
 
+        fileDown.operatingSystem();
+
+       /* Utils fileTest = new Utils();
+        fileTest.file();*/
     }
 }

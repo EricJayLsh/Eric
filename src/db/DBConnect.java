@@ -4,7 +4,7 @@ import java.sql.*;
 
 /**
  * Created by shihai.li@hand-china.com on 2018/8/12.
- *  数据库jdbc连接类
+ * 数据库jdbc连接类
  */
 public class DBConnect {
 
@@ -41,19 +41,20 @@ public class DBConnect {
      */
     public void DBConnection(String dbType, String url, String userName, String password) throws ClassNotFoundException, SQLException {
 
-        final  String driver;
+        final String driver;
         // switch() jdk 1.6 不支持string 类型
-        switch (dbType.toLowerCase()){
-            case "oracle" :
+        switch (dbType.toLowerCase()) {
+            case "oracle":
                 driver = "oracle.jdbc.OracleDriver";
                 break;
-            case "mysql" :
+            case "mysql":
                 driver = "com.mysql.jdbc.Driver";
                 break;
-            case "sqlserver" :
+            case "sqlserver":
                 driver = "com.microsoft.jdbc.sqlserver.SQLServer-Driver";
                 break;
-            default: driver = "oracle.jdbc.SqlServerDriver";
+            default:
+                driver = "oracle.jdbc.SqlServerDriver";
         }
 
         Class.forName(driver); //找到oracle驱动器所在的类
@@ -61,28 +62,29 @@ public class DBConnect {
         connection = DriverManager.getConnection(url, userName, password);
     }
 
-    public void close(){
+    public void close() {
         try {
             rs.close();
-            if(st != null){
+            if (st != null) {
                 st.close();
             }
-            if(ps != null){
+            if (ps != null) {
                 ps.close();
             }
             connection.close();
-        }catch (SQLException e3){
+        } catch (SQLException e3) {
             e3.printStackTrace();
         }
     }
+
     /**
      * Description：查询所有记录
      * Author:@shihai.li@hand-china.com
      */
-    public ResultSet selectAll(String tableName)throws SQLException{
+    public ResultSet selectAll(String tableName) throws SQLException {
 
-        if(connection != null){
-            String sql = "SELECT * FROM "+tableName;
+        if (connection != null) {
+            String sql = "SELECT * FROM " + tableName;
             st = connection.createStatement();
             // executeQuery sql查询方法
             rs = st.executeQuery(sql);
@@ -90,9 +92,9 @@ public class DBConnect {
         return rs;
     }
 
-    public ResultSet select(String condition)throws SQLException{
+    public ResultSet select(String condition) throws SQLException {
 
-        if(connection != null){
+        if (connection != null) {
             String sql = "SELECT * FROM SYS_USER WHERE user_id = ?";
             // prepareStatement 无法将sql关键词作为参数
             ps = connection.prepareStatement(sql);
@@ -106,11 +108,11 @@ public class DBConnect {
      * Description：删除方法
      * Author:@shihai.li@hand-china.com
      */
-    public boolean delete(String tableName, String condition)throws SQLException{
+    public boolean delete(String tableName, String condition) throws SQLException {
 
         boolean delete = true;
-        if(connection != null){
-            String sql = "DELETE  FROM "+tableName+" where user_id = ?";
+        if (connection != null) {
+            String sql = "DELETE  FROM " + tableName + " where user_id = ?";
             ps = connection.prepareStatement(sql);
             ps.setString(1, condition);
             delete = ps.execute();

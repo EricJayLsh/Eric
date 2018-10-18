@@ -1,0 +1,36 @@
+
+qsquid:S2068"U'password' detected in this expression, review this potentially hardcoded credential.(ïñ¤Üÿÿÿÿÿ
+]squid:S1075q"ARefactor your code to get this URI from a customizable parameter.(•µòÞúÿÿÿÿ
+^squid:S1192<"GDefine a constant instead of duplicating this literal "oracle" 3 times.(¼¦¼‰
+`squid:S1192;"IDefine a constant instead of duplicating this literal "sys_user" 3 times.(Ú‚îï
+Fsquid:S2093)"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+_squid:S2095*"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(©‘Ù´
+gsquid:CommentedOutCodeLine/"<This block of commented-out lines of code should be removed.(¦¿åÏùÿÿÿÿ
+bsquid:CommentedOutCodeLinet"<This block of commented-out lines of code should be removed.(äûÑ¾
+T
+squid:S106?"9Replace this use of System.out or System.err by a logger.(ÂÛ¤¥þÿÿÿÿ
+T
+squid:S106P"9Replace this use of System.out or System.err by a logger.(ÂÛ¤¥þÿÿÿÿ
+O
+squid:S106`"9Replace this use of System.out or System.err by a logger.(¶‡ø
+O
+squid:S106x"9Replace this use of System.out or System.err by a logger.(²“ûÊ
+Esquid:S1481L".Remove this unused "tableName" local variable.(Ú‚îï
+jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(óÎ °ùÿÿÿÿ
+Tsquid:S1854L"=Remove this useless assignment to local variable "tableName".(Ú‚îï
+rsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ïÃš‡
+rsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¬¯Ôï
+wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ïñ¤Üÿÿÿÿÿ
+Tsquid:UselessImportCheck
+"0Remove this unused import 'java.sql.Connection'.(¥ËôÖ
+?squid:S1148#"#Use a logger to log this exception.(Âþÿâûÿÿÿÿ
+?squid:S1148."#Use a logger to log this exception.(Ý‹´–úÿÿÿÿ
+?squid:S1148B"#Use a logger to log this exception.(Âþÿâûÿÿÿÿ
+?squid:S1148D"#Use a logger to log this exception.(‰œ‰Õúÿÿÿÿ
+?squid:S1148S"#Use a logger to log this exception.(Âþÿâûÿÿÿÿ
+?squid:S1148U"#Use a logger to log this exception.(‰œ‰Õúÿÿÿÿ
+?squid:S1148b"#Use a logger to log this exception.(Âþÿâûÿÿÿÿ
+?squid:S1148d"#Use a logger to log this exception.(‰œ‰Õúÿÿÿÿ
+?squid:S1148}"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+]
+squid:S899 "BDo something with the "boolean" value returned by "createNewFile".(ÔÙ½ýÿÿÿÿ
