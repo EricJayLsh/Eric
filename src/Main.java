@@ -1,5 +1,4 @@
-import test.*;
-import utils.Utils;
+import test.test;
 
 public class Main {
 
@@ -13,7 +12,7 @@ public class Main {
 
         //fileDown.select();
 
-       // fileDown.delete();
+        // fileDown.delete();
 
         fileDown.operatingSystem();
 

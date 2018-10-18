@@ -29,11 +29,11 @@ public class Utils {
         }
 
         File f;
-        File tempFile = new File( com.getPath() + "\\testFile.txt".trim());
-        if (tempFile.exists()){
+        File tempFile = new File(com.getPath() + "\\testFile.txt".trim());
+        if (tempFile.exists()) {
             f = tempFile;
-        }else{
-             f = new File(com.getPath() + "\\testFile.txt");
+        } else {
+            f = new File(com.getPath() + "\\testFile.txt");
         }
         FileWriter fw;
         try {
