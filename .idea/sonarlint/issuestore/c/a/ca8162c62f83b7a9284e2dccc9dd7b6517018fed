@@ -1,36 +1,36 @@
 
+rsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ïÃš‡
 ]
 squid:S899 "BDo something with the "boolean" value returned by "createNewFile".(ÔÙ½ýÿÿÿÿ
-^squid:S1192>"GDefine a constant instead of duplicating this literal "oracle" 3 times.(¼¦¼‰
-?squid:S1148f"#Use a logger to log this exception.(‰œ‰Õúÿÿÿÿ
-T
-squid:S106A"9Replace this use of System.out or System.err by a logger.(ÂÛ¤¥þÿÿÿÿ
-?squid:S1148/"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
-bsquid:CommentedOutCodeLinev"<This block of commented-out lines of code should be removed.(äûÑ¾
+jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(óÎ °ùÿÿÿÿ
 _squid:S2095*"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(©‘Ù´
-?squid:S1148W"#Use a logger to log this exception.(‰œ‰Õúÿÿÿÿ
-O
-squid:S106b"9Replace this use of System.out or System.err by a logger.(¶‡ø
+rsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¬¯Ôï
+qsquid:S2068"U'password' detected in this expression, review this potentially hardcoded credential.(ïñ¤Üÿÿÿÿÿ
 O
 squid:S106z"9Replace this use of System.out or System.err by a logger.(²“ûÊ
-rsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ïÃš‡
-?squid:S1148d"#Use a logger to log this exception.(Âþÿâûÿÿÿÿ
-]squid:S1075s"ARefactor your code to get this URI from a customizable parameter.(•µòÞúÿÿÿÿ
-rsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¬¯Ôï
-?squid:S1148F"#Use a logger to log this exception.(‰œ‰Õúÿÿÿÿ
-Fsquid:S2093)"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
-?squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
-wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ïñ¤Üÿÿÿÿÿ
-?squid:S1148U"#Use a logger to log this exception.(Âþÿâûÿÿÿÿ
-?squid:S1148D"#Use a logger to log this exception.(Âþÿâûÿÿÿÿ
-qsquid:S2068"U'password' detected in this expression, review this potentially hardcoded credential.(ïñ¤Üÿÿÿÿÿ
-Tsquid:S1854N"=Remove this useless assignment to local variable "tableName".(Ú‚îï
 Esquid:S1481N".Remove this unused "tableName" local variable.(Ú‚îï
-T
-squid:S106R"9Replace this use of System.out or System.err by a logger.(ÂÛ¤¥þÿÿÿÿ
-`squid:S1192="IDefine a constant instead of duplicating this literal "sys_user" 3 times.(Ú‚îï
+?squid:S1148F"#Use a logger to log this exception.(‰œ‰Õúÿÿÿÿ
 gsquid:CommentedOutCodeLine1"<This block of commented-out lines of code should be removed.(¦¿åÏùÿÿÿÿ
+Tsquid:S1854N"=Remove this useless assignment to local variable "tableName".(Ú‚îï
+T
+squid:S106A"9Replace this use of System.out or System.err by a logger.(ÂÛ¤¥þÿÿÿÿ
+]squid:S1075s"ARefactor your code to get this URI from a customizable parameter.(•µòÞúÿÿÿÿ
+?squid:S1148W"#Use a logger to log this exception.(‰œ‰Õúÿÿÿÿ
+?squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+O
+squid:S106b"9Replace this use of System.out or System.err by a logger.(¶‡ø
 Tsquid:UselessImportCheck
 "0Remove this unused import 'java.sql.Connection'.(¥ËôÖ
-jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(óÎ °ùÿÿÿÿ
+wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ïñ¤Üÿÿÿÿÿ
+`squid:S1192="IDefine a constant instead of duplicating this literal "sys_user" 3 times.(Ú‚îï
+Fsquid:S2093)"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+T
+squid:S106R"9Replace this use of System.out or System.err by a logger.(ÂÛ¤¥þÿÿÿÿ
+?squid:S1148U"#Use a logger to log this exception.(Âþÿâûÿÿÿÿ
+bsquid:CommentedOutCodeLinev"<This block of commented-out lines of code should be removed.(äûÑ¾
+?squid:S1148/"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+?squid:S1148D"#Use a logger to log this exception.(Âþÿâûÿÿÿÿ
+?squid:S1148d"#Use a logger to log this exception.(Âþÿâûÿÿÿÿ
+^squid:S1192>"GDefine a constant instead of duplicating this literal "oracle" 3 times.(¼¦¼‰
 ?squid:S1148#"#Use a logger to log this exception.(Âþÿâûÿÿÿÿ
+?squid:S1148f"#Use a logger to log this exception.(‰œ‰Õúÿÿÿÿ
