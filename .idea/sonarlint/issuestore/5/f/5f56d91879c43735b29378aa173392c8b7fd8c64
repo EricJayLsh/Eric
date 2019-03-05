@@ -1,9 +1,10 @@
 
-fsquid:S1192"ODefine a constant instead of duplicating this literal "\\testFile.txt" 3 times.(›¢½Ð
-Fsquid:S2093'"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
 _squid:S2095("HUse try-with-resources or close this "FileWriter" in a "finally" clause.(©‘Ù´
+Fsquid:S2093'"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+?squid:S1148."#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+fsquid:S1192"ODefine a constant instead of duplicating this literal "\\testFile.txt" 3 times.(›¢½Ð
 gsquid:CommentedOutCodeLine0"<This block of commented-out lines of code should be removed.(¦¿åÏùÿÿÿÿ
 ?squid:S1148"#Use a logger to log this exception.(Âþÿâûÿÿÿÿ
-?squid:S1148."#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
 ]
 squid:S899"BDo something with the "boolean" value returned by "createNewFile".(ÔÙ½ýÿÿÿÿ
+wsquid:S1210K"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(‡ÕÔÏ8é±Üûê,

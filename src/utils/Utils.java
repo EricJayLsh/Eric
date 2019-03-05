@@ -5,12 +5,12 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
-import java.util.Date;
+import java.util.*;
 
 /**
  * Created by shihai.li@hand-china.com on 2018/8/14.
  */
-public class Utils {
+public class Utils implements  Comparable{
 
 
     public void file() {
@@ -47,5 +47,32 @@ public class Utils {
         } finally {
             //fw.close();
         }
+    }
+
+
+    // java 中的arrayList 和 linkedList
+
+    public void testList (){
+
+        List<Long> array = new ArrayList<>();
+
+        List<Long> linked = new LinkedList<>();
+
+        Collections.sort(array);
+
+        Collections.emptyList();
+
+
+        Collections.copy(array,linked);
+
+        Collections.fill(array, 123L);
+
+
+
+    }
+    // 实现该接口中的方法来完成排序比较
+    @Override
+    public int compareTo(Object o) {
+        return 0;
     }
 }

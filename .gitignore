@@ -1,10 +1,7 @@
 *.class
+.out
 *.class
-out/production/Eric/Main.class
-*.class
-*.class
-*.class
-out/production/Eric/test/test.class
-*.class
-.idea/sonarlint/issuestore/0/d/0d5da3b664ec85102048a8363aa94cd8bb7170ff
-.idea/sonarlint/issuestore/b/0/b0ff0136d98a9f591238347dc7e37e1be2f8a697
+.idea
+.idea/sonarlint/issuestore/5/8/581426cfeb5886b58d5ec74cdf11e05499a7e26f
+.idea/sonarlint/issuestore/9/2/924f089edb4af5ee45c8a9d1129cd28e2b368138
+*.pb
